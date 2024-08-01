@@ -665,7 +665,7 @@ static int fb_read_var(char *cmd, char *response,
 		fb_add_string(response, chars_left, "N/A", NULL);
 		break;
 	case FB_PRODUCT:
-		fb_add_string(response, chars_left, "Tinker Board 2", NULL);
+		fb_add_string(response, chars_left, "VisAI-Edge", NULL);
 		break;
 	case FB_SERIAL_NO:
 		s = env_get("serial#");
